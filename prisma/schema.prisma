@@ -1,0 +1,17 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Secret {
+  id               String   @id @default(auto()) @map("_id") @db.ObjectId
+  encryptedMessage String
+  isProtected      Boolean
+  isRead           Boolean  @default(false)
+  age              Int      @default(15)
+  createdAt        DateTime @default(now())
+}
