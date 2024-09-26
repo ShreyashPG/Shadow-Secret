@@ -4,8 +4,8 @@ generator client {
 
 datasource db {
   provider = "mongodb"
-  url      = env("mongodb+srv://shreyasghanekar35:Datta%4023Nagar@cluster0.8tbumzm.mongodb.net/secrets?retryWrites=true&w=majority"
-)
+  url      = "mongodb+srv://shreyasghanekar35:Datta%4023Nagar@cluster0.8tbumzm.mongodb.net/secrets?retryWrites=true&w=majority"
+
 }
 
 model Secret {
