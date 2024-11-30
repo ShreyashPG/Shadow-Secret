@@ -130,7 +130,7 @@ const ViewSecret: React.FC<{ id: string }> = ({ id }) => {
       <ContainerHeader className="py-10">
         View{' '}
         <span className="text-primary underline decoration-destructive text-nowrap">
-          SecretPass
+          ShadowSecret
         </span>
       </ContainerHeader>
       <div className="space-y-5">{handleComponentRender()}</div>

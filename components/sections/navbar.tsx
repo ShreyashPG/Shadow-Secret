@@ -12,7 +12,7 @@ const Navbar = () => {
         <Link
           href={route.HOME}
           className="flex items-center text-primary text-lg font-bold">
-          <FaGreaterThan /> SecretPass
+          <FaGreaterThan /> ShadowSecret
         </Link>
         <div>
           <Link

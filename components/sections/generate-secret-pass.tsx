@@ -79,7 +79,7 @@ const GenerateSecretPass = () => {
       <ContainerHeader className="py-10">
         Share Secrets Confidently with{' '}
         <span className="text-primary underline decoration-destructive text-nowrap">
-          SecretPass
+          ShadowSecret
         </span>
       </ContainerHeader>
       <div className="space-y-5">

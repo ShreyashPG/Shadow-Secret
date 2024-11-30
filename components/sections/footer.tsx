@@ -12,7 +12,7 @@ const Footer = () => {
           <Link href={route.HOME} className="">
             Create your{' '}
             <span className="font-bold underline decoration-destructive">
-              SecretPass
+              ShadowSecret
             </span>
           </Link>
         </div>
