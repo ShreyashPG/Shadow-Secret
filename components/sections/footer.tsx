@@ -20,7 +20,7 @@ const Footer = () => {
           <p>
             made with <FaHeart className=" inline" /> by{' '}
             <Link
-              href={process.env.PORTFOLIO_LINK || ''}
+              href="https://portfolio-git-main-shreyashpgs-projects.vercel.app"
               className="font-semibold hover:underline">
               Shreyash Ghanekar
             </Link>

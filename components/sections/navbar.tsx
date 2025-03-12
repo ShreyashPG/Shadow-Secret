@@ -16,7 +16,7 @@ const Navbar = () => {
         </Link>
         <div>
           <Link
-            href={process.env.PORTFOLIO_LINK || ''}
+            href="https://portfolio-git-main-shreyashpgs-projects.vercel.app"
             className="flex items-center">
             <Button variant="secondary" size="sm">
               Portfolio
